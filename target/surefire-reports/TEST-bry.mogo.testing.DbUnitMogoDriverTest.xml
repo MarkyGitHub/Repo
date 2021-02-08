@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="bry.mogo.testing.DbUnitMogoDriverTest" time="1.091" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/test-classes:/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/classes:/home/mschlichtmann/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/mschlichtmann/.m2/repository/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar:/home/mschlichtmann/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/home/mschlichtmann/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/home/mschlichtmann/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/mschlichtmann/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/mschlichtmann/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mschlichtmann/.m2/repository/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.jar:/home/mschlichtmann/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/mschlichtmann/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.3/byte-buddy-agent-1.8.3.jar:/home/mschlichtmann/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/mschlichtmann/.m2/repository/org/dbunit/dbunit/2.7.0/dbunit-2.7.0.jar:/home/mschlichtmann/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/mschlichtmann/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/mschlichtmann/.m2/repository/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar:/home/mschlichtmann/.m2/repository/org/apache/poi/poi/3.15/poi-3.15.jar:/home/mschlichtmann/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/mschlichtmann/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/mschlichtmann/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar:/home/mschlichtmann/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/mschlichtmann/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/mschlichtmann/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/home/mschlichtmann/.m2/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar:/home/mschlichtmann/.m2/repository/com/oracle/ojdbc6/11.2.0.4.0/ojdbc6-11.2.0.4.0.jar:/home/mschlichtmann/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/home/mschlichtmann/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/surefire/surefirebooter633272370099376384.jar /home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/surefire 2020-07-29T11-45-31_083-jvmRun1 surefire7370022816914197296tmp surefire_01053877626439872282tmp"/>
+    <property name="surefire.test.class.path" value="/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/test-classes:/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/classes:/home/mschlichtmann/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/mschlichtmann/.m2/repository/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar:/home/mschlichtmann/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/home/mschlichtmann/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/home/mschlichtmann/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/home/mschlichtmann/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/mschlichtmann/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mschlichtmann/.m2/repository/org/mockito/mockito-core/2.18.0/mockito-core-2.18.0.jar:/home/mschlichtmann/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/home/mschlichtmann/.m2/repository/net/bytebuddy/byte-buddy-agent/1.8.3/byte-buddy-agent-1.8.3.jar:/home/mschlichtmann/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/mschlichtmann/.m2/repository/org/dbunit/dbunit/2.7.0/dbunit-2.7.0.jar:/home/mschlichtmann/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/mschlichtmann/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/mschlichtmann/.m2/repository/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar:/home/mschlichtmann/.m2/repository/org/apache/poi/poi/3.15/poi-3.15.jar:/home/mschlichtmann/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/mschlichtmann/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/mschlichtmann/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar:/home/mschlichtmann/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/mschlichtmann/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/mschlichtmann/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/home/mschlichtmann/.m2/repository/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar:/home/mschlichtmann/.m2/repository/com/oracle/ojdbc6/11.2.0.4.0/ojdbc6-11.2.0.4.0.jar:/home/mschlichtmann/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/home/mschlichtmann/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/mschlichtmann"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/home/mschlichtmann/installs/jdk1.8.0_202/jre"/>
+    <property name="basedir" value="/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/surefire/surefirebooter633272370099376384.jar:/home/mschlichtmann/.m2/repository/org/jacoco/org.jacoco.agent/0.7.9/org.jacoco.agent-0.7.9-runtime.jar"/>
+    <property name="sun.boot.class.path" value="/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/resources.jar:/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/rt.jar:/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/sunrsasign.jar:/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/jsse.jar:/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/jce.jar:/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/charsets.jar:/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/jfr.jar:/home/mschlichtmann/installs/jdk1.8.0_202/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="mschlichtmann"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-109-generic"/>
+    <property name="java.endorsed.dirs" value="/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="derby.system.home" value="/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing/target/test-classes/META-INF"/>
+    <property name="maven.ext.class.path" value="/home/mschlichtmann/installs/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/home/mschlichtmann/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="/home/mschlichtmann/NetBeansProjects/mogo-testing/mogo-testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/amd64:/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="/home/mschlichtmann/installs/jdk1.8.0_202/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testGetDbTester on testGetDbTester(bry.mogo.testing.DbUnitMogoDriverTest)" classname="bry.mogo.testing.DbUnitMogoDriverTest" time="0.721"/>
+  <testcase name="testGetDatabaseConnection on testGetDatabaseConnection(bry.mogo.testing.DbUnitMogoDriverTest)" classname="bry.mogo.testing.DbUnitMogoDriverTest" time="0.015"/>
+  <testcase name="testGetSetMogoConfig on testGetSetMogoConfig(bry.mogo.testing.DbUnitMogoDriverTest)" classname="bry.mogo.testing.DbUnitMogoDriverTest" time="0"/>
+  <testcase name="testGetConnection on testGetConnection(bry.mogo.testing.DbUnitMogoDriverTest)" classname="bry.mogo.testing.DbUnitMogoDriverTest" time="0.014"/>
+</testsuite>
