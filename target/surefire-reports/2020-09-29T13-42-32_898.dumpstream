@@ -1,9 +1,0 @@
-# Created on 2020-09-29T13:42:32.899
-ERROR: transport error 202: connect failed: Verbindungsaufbau abgelehnt
-
-# Created on 2020-09-29T13:42:32.899
-ERROR: JDWP Transport dt_socket failed to initialize, TRANSPORT_INIT(510)
-
-# Created on 2020-09-29T13:42:32.900
-JDWP exit error AGENT_ERROR_TRANSPORT_INIT(197): No transports initialized [debugInit.c:750]
-
